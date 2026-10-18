@@ -41,7 +41,9 @@ cp -r trader-skill/trader-* ~/.claude/skills/
 ```
 
 Project-local instead of global: copy the same folders into your repo's
-`.claude/skills/`. No Claude Code at all? Paste any single `SKILL.md` at the
+`.claude/skills/`. Working inside this repo (locally or in a Claude Code cloud
+session), there is nothing to install: `.claude/skills/` links to each skill
+folder, so `/trader-pelosi` and the rest show up as plain slash commands. No Claude Code at all? Paste any single `SKILL.md` at the
 top of a chat and it runs as a mode. You lose the Python tools, but the method
 works.
 
